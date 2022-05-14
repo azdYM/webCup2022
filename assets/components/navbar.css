@@ -1,0 +1,32 @@
+.navbar 
+{
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbar .link-auth
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.link-auth button
+{
+    font-size: 0.8rem;
+    height: 70%;
+    border-radius: 12px;
+    padding: 0 1rem;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.link-auth .signin
+{
+    border: 1px solid #777;
+}
